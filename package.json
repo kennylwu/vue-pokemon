@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "vue-pokemon",
+  "productName": "vue-pokemon",
+  "description": "GraphQL",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "poi src/index.js",
+    "build": "poi build index.js",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single",
+    "test": "tyu"
+  },
+  "author": {
+    "name": "kennylwu",
+    "email": "user2279779@yahoo.com"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.7",
+    "graphql": "^15.0.0",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "offline-plugin": "^4.9.1",
+    "promise-polyfill": "^6.0.2",
+    "vue-apollo": "^3.0.3"
+  },
+  "devDependencies": {
+    "poi": "^9.6.13",
+    "poi-preset-bundle-report": "^2.0.2",
+    "poi-preset-offline": "^9.0.3",
+    "serve": "^6.1.0",
+    "tyu": "^1.0.4"
+  }
+}
